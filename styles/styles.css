@@ -1,0 +1,19 @@
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 25;
+	padding: 30;
+	background-image:url(../images/a.jpg);
+	background-size:cover;
+	text-align: left;
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 40px;
+	color: #00000;
+}
+
+
+
+
