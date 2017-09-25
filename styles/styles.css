@@ -1,8 +1,13 @@
+@font-face{
+	font-family:fightimport;
+	src:url("../fight.ttf");
+}
 body {
 	margin: 25;
 	padding: 30;
 	background-image:url(../images/a.jpg);
-	font-family: Georgia, Times New Roman, Times, serif;
+	font-family: fightimport;
+	color:#04FBE5;
 }
 #header ul {
 
@@ -10,19 +15,26 @@ body {
 	list-style-type: none;
 	overflow:hidden;
 	float:left;
-	
+}
+.line-separator{
+
+height:5px;
+background:#04FBE5;
+border-bottom:2px solid #313030;
+width:650px;
+
 }
 #header ul li {
 	float:left;
 	margin: 0px;
 	line-height:100px;
 	text-align:center;
-	font-size:36px;
+	font-size:40px;
 	padding-left:10px;
 	padding-right:20px;	
 }
 #header ul li a:hover{
-	color:#000000;
+	color:#FB0404;
 	background-image:url(../images/hover.png);
 	background-size: 150px 60px;
 	
@@ -30,7 +42,7 @@ body {
 #header a:hover, a:visited, a:link
 {
     text-decoration: none;
-	color:#FFFFFF;
+	color:#04FBE5;
 	text-shadow: 1px 1px 2px black;
 }
 
