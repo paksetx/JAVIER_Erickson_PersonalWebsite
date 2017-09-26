@@ -31,7 +31,8 @@ width:650px;
 	text-align:center;
 	font-size:40px;
 	padding-left:10px;
-	padding-right:20px;	
+	padding-right:20px;
+	
 }
 #header ul li a:hover{
 	color:#FB0404;
@@ -43,7 +44,24 @@ width:650px;
 {
     text-decoration: none;
 	color:#04FBE5;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 2px 2px 2px black;
+}
+#main 
+{
+width:50px;
+margin-top:50px;
+margin-bottom:15px;
+}
+
+
+#main .main_center h1
+{
+width:570px;
+text-align:center;
+float:left;
+font-size:100px;
+text-shadow: 5px 5px 3px black;
+
 }
 
 
