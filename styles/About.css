@@ -1,0 +1,11 @@
+@font-face{
+	font-family:fridayimport;
+	src:url("../fonts/friday.ttf");
+}
+body {
+	margin: 25;
+	padding: 30;
+	background-image:url(../images/b.jpg);
+	font-family: fridayimport;
+	color:#FFFFF;
+}
