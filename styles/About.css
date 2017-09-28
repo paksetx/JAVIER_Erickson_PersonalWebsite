@@ -7,27 +7,48 @@
 	src:url("../fonts/fight.ttf");
 }
 body {
-	margin: 25;
-	padding: 20;
+	margin: 30;
+	padding: 0;
 	background-image:url(../images/b.jpg);
 	background-size:cover;
 }
-#body h1 {
+h1 {
 font-family: fridayimport;
 color:yellow;
 text-align:left;
 font-size:60px;
-text-shadow: 
+padding-left:30;
+padding-top:50;
+
 }
-ul{
+ ul{
+	margin:20;
+	padding:0;
     list-style-type: none;
 	color:fffff;
-	text-shadow: 1px 1px 2px black;
-    background-color: #333;	
-}
-li
-{
+    background-color: #E8FF00;	
 	font-family: fightimport;
-	font-size:20px;
-}
+	font-size:30px;
+	overflow: hidden;
 	
+
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ffffff;
+}
+img {
+	margin-left:800;
+	
+}
+
