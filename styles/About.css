@@ -17,7 +17,7 @@ font-family: fridayimport;
 color:yellow;
 text-align:left;
 font-size:60px;
-padding-left:40;
+padding-left:100;
 padding-top:55;
 
 }
@@ -47,15 +47,17 @@ li a {
 li a:hover {
     background-color: #ffffff;
 }
-li img {
-	margin-left:915;
-	padding-top:4;
+li h3{
+	margin-left:1300;
+	margin-bottom:250;
+}
+p img {
+	margin-left:30;
+	margin-top:-50;
+
 }
 h2 img {
-	margin-left:480;
+	margin-left:520;
 	margin-top:-140;
 	
 }
-
-
-
