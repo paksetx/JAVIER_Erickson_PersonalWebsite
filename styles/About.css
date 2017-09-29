@@ -67,7 +67,7 @@ h3{
 position: absolute; 
 font-family: poolimport;
 color:black;
-bottom: 120px; 
+bottom: 105px; 
 font-size:18px;
 letter-spacing: 2px;
 line-height: 20px;
@@ -89,7 +89,7 @@ h5 img {
 	position: absolute; 
 	margin-left:300;
 	margin-top:-500;
-	border: 5px solid red;
+	border-radius: 50%;
 }
 
 
