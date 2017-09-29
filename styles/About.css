@@ -78,12 +78,18 @@ h4{
 position: absolute; 
 font-family: poolimport;
 color:black;
-bottom: 80px; 
+bottom: 75px; 
 font-size:17px;
 letter-spacing: 2px;
 line-height: 20px;
 left: 75; 
-text-indent: 45px;
+text-indent: 40px;
+}
+h5 img {
+	position: absolute; 
+	margin-left:300;
+	margin-top:-500;
+	border: 5px solid red;
 }
 
 
