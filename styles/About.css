@@ -23,7 +23,7 @@ text-align:left;
 font-size:60px;
 padding-left:130;
 padding-top:55;
-animation: fadeIn 3s;
+animation: fadeIn 1s;
 
 }
  ul{
@@ -35,6 +35,7 @@ animation: fadeIn 3s;
 	font-family: fightimport;
 	font-size:30px;
 	overflow: hidden;
+	
 }
 li {
     float: left;
@@ -58,11 +59,15 @@ p img {
 	margin-left:5;
 	margin-top:-50;
 	position: relative;
+	
+
 
 }
 h2 img {
 	margin-left:550;
 	margin-top:-140;
+	animation:fadeIn2 1s;
+
 }
 h3{
 position: absolute; 
@@ -74,6 +79,8 @@ letter-spacing: 2px;
 line-height: 20px;
 left: 75; 
 text-indent: 30px;
+animation: grow2 2s;
+
 }
 h4{
 position: absolute; 
@@ -85,6 +92,8 @@ letter-spacing: 2px;
 line-height: 20px;
 left: 155; 
 text-indent: 40px;
+animation: grow1 2s;
+
 
 }
 h5 img {
@@ -94,8 +103,18 @@ h5 img {
 	border-radius: 50%;
 	border-style: solid;
 	 background: black;
+	animation: opacity 4s;
+	 
 }
 @keyframes fadeIn {
+	from {
+		padding-left:0;
+	}
+	to {
+		padding-left:130;
+	}
+}
+@keyframes opacity {
 	from {
 		opacity: 0;
 	}
@@ -103,6 +122,31 @@ h5 img {
 		opacity:1;
 	}
 }
+@keyframes grow1 {
+	from {
+		font-size:0px;
+	}
+	to {
+		font-size:16px;
+	}
+}
+@keyframes grow2 {
+	from {
+		font-size:0px;
+	}
+	to {
+		font-size:18px;
+	}
+}
+@keyframes fadeIn2 {
+	from {
+		margin-left:1000;
+	}
+	to {
+		margin-left:550;
+	}
+}
+
 
 
 
