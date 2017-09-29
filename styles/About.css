@@ -21,7 +21,7 @@ font-family: fridayimport;
 color:yellow;
 text-align:left;
 font-size:60px;
-padding-left:100;
+padding-left:130;
 padding-top:55;
 
 }
@@ -60,15 +60,20 @@ p img {
 
 }
 h2 img {
-	margin-left:520;
+	margin-left:550;
 	margin-top:-140;
 }
 h3{
 position: absolute; 
 font-family: poolimport;
 color:black;
-bottom: 300px; 
-font-size:25px;
-left: 150; 
+bottom: 160px; 
+font-size:17px;
+letter-spacing: 2px;
+line-height: 20px;
+left: 75; 
+text-indent: 30px;
 }
+
+
 
