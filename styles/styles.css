@@ -38,6 +38,7 @@ width:650px;
 	color:#FB0404;
 	background-image:url(../images/hover.png);
 	background-size: 150px 60px;
+	opacity:0.6;
 	
 }
 #header a:hover, a:visited, a:link

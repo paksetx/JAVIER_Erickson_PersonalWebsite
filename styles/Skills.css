@@ -1,0 +1,36 @@
+@font-face{
+	font-family:fightimport;
+	src:url("../fonts/fight.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(../images/d.jpg);
+	background-size:cover;
+}
+ul{
+	margin:0;
+	padding:0;
+    list-style-type: none;
+	color:fffff;
+    background-color: #000000;	
+	font-family: fightimport;
+	font-size:30px;
+	overflow: hidden;
+	
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #FF4900;
+}
