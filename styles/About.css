@@ -15,6 +15,7 @@ body {
 	padding: 0;
 	background-image:url(../images/b.jpg);
 	background-size:cover;
+	
 }
 h1 {
 font-family: fridayimport;
@@ -23,7 +24,7 @@ text-align:left;
 font-size:60px;
 padding-left:130;
 padding-top:55;
-animation: fadeIn 1s;
+
 
 }
  ul{
@@ -60,26 +61,22 @@ p img {
 	margin-top:-50;
 	position: relative;
 	
-
-
 }
 h2 img {
 	margin-left:550;
 	margin-top:-140;
-	animation:fadeIn2 1s;
-
 }
 h3{
 position: absolute; 
 font-family: poolimport;
 color:black;
 bottom: 100px; 
-font-size:18px;
-letter-spacing: 2px;
+font-size:14px;
+letter-spacing: 0px;
 line-height: 20px;
-left: 75; 
+left: 90; 
 text-indent: 30px;
-animation: grow2 2s;
+animation: grow2 3s;
 
 }
 h4{
@@ -87,47 +84,32 @@ position: absolute;
 font-family: poolimport;
 color:black;
 bottom:40px; 
-font-size:16px;
-letter-spacing: 2px;
+font-size:12px;
+letter-spacing: 0px;
 line-height: 20px;
-left: 155; 
+left: 180; 
 text-indent: 40px;
-animation: grow1 2s;
+animation: grow1 3s;
 
 
 }
 h5 img {
 	position: absolute; 
-	margin-left:300;
+	margin-left:315;
 	margin-top:-505;
 	border-radius: 50%;
 	border-style: solid;
 	 background: black;
-	animation: opacity 4s;
+
 	 
 }
-@keyframes fadeIn {
-	from {
-		padding-left:0;
-	}
-	to {
-		padding-left:130;
-	}
-}
-@keyframes opacity {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity:1;
-	}
-}
+
 @keyframes grow1 {
 	from {
 		font-size:0px;
 	}
 	to {
-		font-size:16px;
+		font-size:12px;
 	}
 }
 @keyframes grow2 {
@@ -135,15 +117,7 @@ h5 img {
 		font-size:0px;
 	}
 	to {
-		font-size:18px;
-	}
-}
-@keyframes fadeIn2 {
-	from {
-		margin-left:1000;
-	}
-	to {
-		margin-left:550;
+		font-size:14px;
 	}
 }
 
