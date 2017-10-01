@@ -274,13 +274,52 @@ top:-650px;
 	background-color:#FFFFFF;
 	
 }
+.Workimg h2{
+position: relative;
+font-family: clockimport;
+color:white;
+text-align:left;
+font-size:35px;
+padding-left:100;
+top:-670px;
+-webkit-text-stroke: 2px black;
+}
 .cert img{
 	position: relative;
-	bottom:650;
-	right:110;  
+	bottom:700;
+	right:120;  
 	padding:3px;
 	border:5px solid #000000;
 	background-color:#FFFFFF;
 	
+}
+.cert h2{
+position: relative;
+font-family: clockimport;
+color:white;
+text-align:left;
+font-size:35px;
+padding-left:190;
+top:-700px;
+-webkit-text-stroke: 2px black;
+}
+.villa img {
+	position: relative;
+	bottom:720;
+	right:100;  
+	padding:3px;
+	border:5px solid #000000;
+	background-color:#FFFFFF;
+	
+}
+.villa h2{
+position: relative;
+font-family: clockimport;
+color:white;
+text-align:left;
+font-size:35px;
+padding-left:210;
+top:-720px;
+-webkit-text-stroke: 2px black;
 }
 
