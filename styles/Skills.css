@@ -256,14 +256,21 @@ width:800px;
 
 }
 .works h1{
-position: absolute;
+position: relative;
 font-family: clockimport;
 color:white;
 text-align:left;
 font-size:80px;
 padding-left:250;
-top:820px;
+top:-650px;
 -webkit-text-stroke: 2px black;
+}
+.Workimg img{
+	position: relative;
+	bottom:650;
+	right:190;  
+	border:5px solid #021a40;
+
 
 }
 
