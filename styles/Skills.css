@@ -53,7 +53,6 @@ padding-top:55;
 -webkit-text-stroke: 2px black;
 
 }
-
 .container {
   position: relative;
   width: 0;
@@ -64,6 +63,7 @@ padding-top:55;
 h2 img{
 	border-style: solid;
  border-color: black;
+
 }
 .overlay {
   position: absolute;
@@ -83,6 +83,47 @@ h2 img{
   opacity: 1;
 }
 .text {
+  color: BLACK;
+  font-size: 20px;
+  font-family:clockimport;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container2 {
+  position: relative;
+  width: 0;
+  margin-left:22%;
+bottom:228;
+  
+}
+
+h3 img{
+	border-style: solid;
+ border-color: black;
+   
+
+}
+.overlaytwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+ border-style: solid;
+ border-color: black;
+}
+.container2:hover .overlaytwo {
+  opacity: 1;
+}
+.text2 {
   color: BLACK;
   font-size: 20px;
   font-family:clockimport;
