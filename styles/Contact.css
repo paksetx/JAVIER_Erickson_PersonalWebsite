@@ -56,11 +56,15 @@ text-shadow: 5px 5px 4px black;
 .fa-facebook {
 	position: absolute;
 	text-decoration: none;
-	left:18%;
+	left:25%;
 }
 .fa-twitter {
 	position: absolute;
 	text-decoration: none;
-	left:30%;
+	left:35%;
 }
-	
+.fa-gmail {
+	position: absolute;
+	text-decoration: none;
+	left:45%;
+}	
