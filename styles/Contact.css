@@ -48,15 +48,6 @@ font-size:70px;
 padding-top:55;
 text-shadow: 5px 5px 4px black;
 }
-.fa {
-  padding-left: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
- 
-}
 
 .fa:hover {
     opacity: 0.7;
@@ -65,6 +56,11 @@ text-shadow: 5px 5px 4px black;
 .fa-facebook {
 	position: absolute;
 	text-decoration: none;
-	left:120px;
+	left:18%;
+}
+.fa-twitter {
+	position: absolute;
+	text-decoration: none;
+	left:30%;
 }
 	
