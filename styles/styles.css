@@ -6,7 +6,10 @@ body {
 	margin: 25;
 	padding: 30;
 	background-image:url(../images/a.jpg);
+	background-position:left;
 	font-family: fightimport;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	color:#04FBE5;
 }
 #header ul {

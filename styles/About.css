@@ -19,9 +19,11 @@ body {
 	padding: 0;
 	background-image:url(../images/b.jpg);
 	background-size:cover;
-
-
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
 body h1 {
 font-family: fridayimport;
 color:yellow;
@@ -29,6 +31,7 @@ text-align:left;
 font-size:60px;
 padding-left:130;
 padding-top:55;
+position:relative;
 
 
 }
@@ -72,10 +75,10 @@ h2 img {
 	margin-top:-140;
 }
 h3{
-position: absolute; 
+position: relative;
 font-family: comicimport;
 color:black;
-bottom: 100px; 
+bottom: 365px; 
 font-size:17px;
 letter-spacing: 1px;
 line-height: 20px;
@@ -85,10 +88,10 @@ animation: grow1 2s;
 
 }
 h4{
-position: absolute; 
+position: relative; 
 font-family: comicimport;
 color:black;
-bottom:50px; 
+bottom:380px; 
 font-size:17px;
 letter-spacing: 1px;
 line-height: 20px;
@@ -108,16 +111,8 @@ h5 img {
 
 	 
 }
-footer { 
-    display: block;
-	background-color:yellow;
-	padding :3;
-	margin:40;
-	margin-right:170;
-	margin-left:170;
-}
 #parallelogram {
-	
+	position: relative;
     width: 1000px;
     height: 90px;
     -webkit-transform: skew(30deg);
@@ -128,13 +123,14 @@ footer {
 	margin:40;
 	margin-right:170;
 	margin-left:170;
+	bottom:120px;
 	
 }
 h6 {
-position: absolute; 
+position: relative; 
 font-family: poolimport;
 color:black;
-bottom:-254px; 
+bottom:225px; 
 font-size:16px;
 letter-spacing: 0px;
 line-height: 20px;
@@ -144,8 +140,9 @@ padding-bottom:10;
 
 }
 h6 img {
+	position: relative; 
 	margin-left:700;
-	margin-bottom:-20;
+	bottom:110px;
 	
 }
 
