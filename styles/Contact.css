@@ -41,12 +41,13 @@ li a:hover {
     background-color: #00FFD8;
 }
  h1{
-	font-family: madimport;
+font-family: madimport;
 color:#00F7FF;
 text-align:center;
 font-size:70px;
 padding-top:55;
 text-shadow: 5px 5px 4px black;
+
 }
 
 .fa:hover {
@@ -57,25 +58,39 @@ text-shadow: 5px 5px 4px black;
 	position: absolute;
 	text-decoration: none;
 	left:25%;
+	animation: fadeIn 2s;
 }
 .fa-twitter {
 	position: absolute;
 	text-decoration: none;
 	left:35%;
+	animation: fadeIn 2s;
 }
 .fa-gmail {
 	position: absolute;
 	text-decoration: none;
 	left:45%;
+	animation: fadeIn 2s;
 }
 .fa-blog {
 	position: absolute;
 	text-decoration: none;
 	left:55%;
+	animation: fadeIn 2s;
 }
 .fa-steam {
 	position: absolute;
 	text-decoration: none;
 	left:65%;
+	animation: fadeIn 2s;
 }
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
 	
