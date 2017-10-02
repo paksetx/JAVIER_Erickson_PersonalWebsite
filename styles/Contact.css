@@ -1,0 +1,42 @@
+@font-face{
+	font-family:fightimport;
+	src:url("../fonts/fight.ttf");
+}
+@font-face{
+	font-family:madimport;
+	src:url("../fonts/mad.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(../images/mad.jpg);
+	background-size:cover;
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+	margin:0;
+	padding:0;
+    list-style-type: none;
+	color:fffff;
+    background-color: #FF8B00;	
+	font-family: fightimport;
+	font-size:30px;
+	overflow: hidden;
+	
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #00FFD8;
+}
